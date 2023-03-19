@@ -1,0 +1,44 @@
+import:
+ - ~/.config/alacritty/themes/themes/darcula.yaml
+
+live_config_reload: true
+
+
+
+env:
+  TERM: xterm-256color
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+window:
+  opacity: 0.80
+  padding:
+    x: 5
+    y: 5
+  dimensions:
+    columns: 133
+    lines: 40
+  dynamic_padding: true
+  decorations: full
+
+font:
+  normal:
+    family: "DejaVuSansMono Nerd Font"
+    style: "Book"
+  bold:
+    family: "DejaVuSansMono Nerd Font"
+    style: "Bold"
+  italic:
+    family: "DejaVuSansMono Nerd Font"
+    style: "Oblique"
+  bold_italic:
+    family: "DejaVuSansMono Nerd Font"
+    style: "Bold Oblique"
+
+  size: 20.0
+
+#cursor:
+#  style:
+#    shape: Block
